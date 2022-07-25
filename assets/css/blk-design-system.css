@@ -2401,8 +2401,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #FFB94C;
-  border-color: #FFB94C;
+  background-color: #2657A7;
+  border-color: #2657A7;
 }
 
 .btn-primary:focus,
@@ -10741,18 +10741,14 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn-primary {
   background: #2657A7;
-  background: hsla(217, 63%, 40%, 1);
   background-size: 210% 210%;
-  background-position: top right;
-  background-color: #2657A7;
   transition: all 0.15s ease;
   box-shadow: none;
   color: #ffffff;
 }
 
 .btn-primary.animation-on-hover:hover {
-  background-position: bottom left;
-  transition: 0.3s ease-in-out;
+
 }
 
 .btn-primary:hover,
@@ -10763,7 +10759,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .btn-primary:active:hover,
 .btn-primary.active:focus,
 .btn-primary.active:hover {
-  background-color: #FFB94C !important;
+  background-color: #2657A7 !important;
   color: #ffffff;
   box-shadow: none;
 }
@@ -10804,8 +10800,8 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #FFB94C;
-  border-color: #FFB94C;
+  background-color: #2657A7;
+  border-color: #2657A7;
 }
 
 .btn-primary.btn-simple {
@@ -15367,11 +15363,6 @@ hr {
 .pagination .page-item.active>.page-link:focus,
 .pagination .page-item.active>.page-link:hover {
   background: #2657A7;
-  background-image: -webkit-linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-image: -o-linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-image: -moz-linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-image: linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-size: 210% 210%;
   background-position: top right;
   color: #ffffff;
 }
@@ -15384,10 +15375,6 @@ hr {
 .pagination.pagination-info .page-item.active>.page-link:focus,
 .pagination.pagination-info .page-item.active>.page-link:hover {
   background: #1d8cf8;
-  background-image: -webkit-linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
-  background-image: -o-linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
-  background-image: -moz-linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
-  background-image: linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
   background-size: 210% 210%;
   background-position: top right;
 }
@@ -15407,11 +15394,8 @@ hr {
 .pagination.pagination-primary .page-item.active>.page-link,
 .pagination.pagination-primary .page-item.active>.page-link:focus,
 .pagination.pagination-primary .page-item.active>.page-link:hover {
-  background: #2657A7;
-  background-image: -webkit-linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-image: -o-linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-image: -moz-linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
-  background-image: linear-gradient(to bottom left, #2657A7, #ba54f5, #2657A7);
+  background:var(--secondary);
+  color:black;
   background-size: 210% 210%;
   background-position: top right;
 }
