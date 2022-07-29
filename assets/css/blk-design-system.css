@@ -3585,14 +3585,14 @@ input[type="button"].btn-block {
 
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #ffffff;
+  color: var(--secondary);
   text-decoration: none;
-  background-color: #2657A7;
+  background:var(--secondary);
 }
 
 .dropdown-item.disabled,
 .dropdown-item:disabled {
-  color: #6c757d;
+  color: var(--secondary);
   background-color: transparent;
 }
 
@@ -13981,7 +13981,7 @@ img {
     width: 22px;
     height: 1px;
     border-radius: 1px;
-    background: #ffffff;
+    background: var(--secondary);
   }
   .navbar .navbar-toggler-bar.navbar-kebab {
     height: 4px;
