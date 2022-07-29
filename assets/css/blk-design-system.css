@@ -4342,6 +4342,10 @@ input[type="button"].btn-block {
 .nav-link.disabled {
   color: #6c757d;
 }
+.icons-sosmed{
+  font-size:10em;
+  margin:50px;
+}
 
 .nav-tabs {
   border-bottom: 0.0625rem solid #e3e3e3;
