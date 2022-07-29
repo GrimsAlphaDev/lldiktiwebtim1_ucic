@@ -4334,12 +4334,24 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.nav-link:active{
+  color:var(--secondary);
+  background:var(--secondary);
+}
+
 .nav-link.disabled {
   color: #6c757d;
 }
 
 .nav-tabs {
   border-bottom: 0.0625rem solid #e3e3e3;
+}
+
+.nav-item:active{
+  color:var(--secondary);
+}
+.active{
+  color:var(--secondary);
 }
 
 .nav-tabs .nav-item {
